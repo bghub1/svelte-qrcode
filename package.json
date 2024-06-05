@@ -14,7 +14,7 @@
   ],
   "exports": {
     ".": {
-      "svelte": "./src/index.svelte"
+      "svelte": "./src/lib/index.svelte"
     }
   },
   "devDependencies": {
