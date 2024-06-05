@@ -14,10 +14,7 @@
   ],
   "exports": {
     ".": {
-      "svelte": "./src/index.svelte",
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js",
-      "default": "./dist/index.js"
+      "svelte": "./src/index.svelte"
     }
   },
   "devDependencies": {
