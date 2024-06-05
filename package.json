@@ -12,6 +12,14 @@
     "src/lib/index.svelte",
     "src/lib/qrcode/index.js"
   ],
+  "exports": {
+    ".": {
+      "svelte": "./src/index.svelte",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
   "devDependencies": {
     "rollup": "^2.2.0",
     "rollup-plugin-commonjs": "^10.1.0",
